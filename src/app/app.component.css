@@ -1,0 +1,145 @@
+p {
+  font-family: Lato;
+}
+.tableContainer {
+  overflow-x:auto;
+}
+
+.filter-input {
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.btn-width-fixed {
+  width: 80px;
+}
+
+.pw-btn {
+  padding: 0px;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.pw-input {
+  width: calc(100% - 28px) !important;
+}
+
+.pw-multi-input {
+  width: calc(100% - 56px) !important;
+}
+
+button:focus {
+  outline: none;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.form-label {
+  text-align: right;
+}
+
+.roles-column {
+  white-space: normal;
+  word-break: normal;
+}
+
+.ui-table .ui-table-thead > tr > th {
+  background-color: #80abf2;
+  border: 1px solid #fff;
+  color: #313233;
+  font-size: 13px;
+}
+
+.ui-table .ui-table-tbody > tr {
+  background-color: #c5c6c9;
+  border: 1px solid #e2e5e8;
+  color: #313233;
+  font-size: 0.9em;
+}
+
+.ui-table .ui-table-tbody > tr > td {
+  background-color: inherit;
+  border: 1px solid #e2e5e8;
+  color: #313233;
+  font-size: 13px;
+  height: 33px;
+}
+
+.ui-table tbody td.wrapText {
+  white-space: normal;
+}
+
+.ui-chkbox .ui-chkbox-box {
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+
+.ui-dialog {
+  background-color: #6a6a6b;
+}
+
+.ui-fieldset-legend {
+  border: none;
+  font-size: 1em;
+  background-color: transparent;
+  width: 29%;
+}
+
+.ui-fieldset {
+  border: 1px solid #d1d1d1;
+  background-color: transparent;
+}
+
+.ui-g-12, .ui-g-6, .ui-g-8, .ui-g-10 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.ui-table .ui-table-tbody > tr.ui-state-highlight > td {
+  background-color: #495057;
+  color: #fff;
+}
+
+.ui-dropdown {
+  min-width: 100%;
+  width: max-content;
+}
+
+.ui-inputgroup .ui-inputgroup-addon {
+  height: fit-content;
+}
+
+.ui-multiselect {
+  background-color: #fff;
+  color: #000;
+}
+
+.ui-fluid p-dropdown {
+  min-width: 85%;
+  width: max-content;
+}
+
+.ui-fluid p-multiSelect {
+  min-width: 85%;
+  width: max-content;
+}
+
+.ui-fluid pInputText {
+  min-width: 90%;
+  width: max-content;
+}
+
+.ui-paginator {
+  background-color: #80abf2;
+  font-size: 15px;
+}
+
+.imposter-password {
+  font-family: 'text-security-disc';
+}
