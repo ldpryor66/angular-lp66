@@ -55,13 +55,13 @@ export class MyTableComponent implements OnInit {
       },
       {
         header: "First",
-        field: "firstname",
+        field: "firstName",
         editable: true,
         width: 160
       },
       {
         header: "Last",
-        field: "lastname",
+        field: "lastName",
         editable: true,
         width: 160
       }
@@ -76,22 +76,22 @@ export class MyTableComponent implements OnInit {
         id: "user1",
         username: "user1",
         roles: ["Tailor"],
-        firstname: "User",
-        lastname: "One"
+        firstName: "User",
+        lastName: "One"
       },
       {
         id: "user2",
         username: "user2",
         roles: ["Soldier", "Tinker"],
-        firstname: "Yser",
-        lastname: "Two"
+        firstName: "Yser",
+        lastName: "Two"
       },
       {
         id: "user3",
         username: "user3",
         roles: [],
-        firstname: "Ewser",
-        lastname: "Three"
+        firstName: "Ewser",
+        lastName: "Three"
       }
     ];
     return results;
