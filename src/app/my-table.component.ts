@@ -52,31 +52,51 @@ export class MyTableComponent implements OnInit {
         field: "roles",
         editable: true,
         width: 160
+      },
+      {
+        header: "First",
+        field: "firstname",
+        editable: true,
+        width: 160
+      },
+      {
+        header: "Last",
+        field: "lastname",
+        editable: true,
+        width: 160
       }
     ];
 
     return columns;
   }
+
   generateData(): Array<any> {
     const results = [
       {
         id: "user1",
         username: "user1",
-        roles: ["Tailor"]
+        roles: ["Tailor"],
+        firstname: "User",
+        lastname: "One"
       },
       {
         id: "user2",
         username: "user2",
-        roles: ["Soldier", "Tinker"]
+        roles: ["Soldier", "Tinker"],
+        firstname: "Yser",
+        lastname: "Two"
       },
       {
         id: "user3",
         username: "user3",
-        roles: []
+        roles: [],
+        firstname: "Ewser",
+        lastname: "Three"
       }
     ];
     return results;
   }
+
   populateRoles() {
     const allRoles = new Array();
     allRoles.push('');
